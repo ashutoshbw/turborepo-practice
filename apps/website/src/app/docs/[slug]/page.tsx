@@ -3,7 +3,8 @@ import path from "node:path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
-const contentSource = "docs";
+const sep = path.sep;
+const contentSource = `..${sep}..${sep}docs`;
 
 export async function generateStaticParams() {
   const filenames = await readdir(path.join(process.cwd(), contentSource));
@@ -23,7 +24,7 @@ export default async function Page({
 
   return (
     <article>
-      <h1>{data.title}</h1>
+      <h1>{data.title} and something</h1>
       <MDXRemote source={content} />
     </article>
   );
