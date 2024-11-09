@@ -24,7 +24,7 @@ jobs:
       - name: Cache turbo build setup
         uses: actions/cache@v4
         with:
-          path: .turbo
+          path: out
           key: ${{ runner.os }}-turbo-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-turbo-
