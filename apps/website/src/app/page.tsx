@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li>
-            Start with something different. Save and see your changes
+            Coffee.... Start with something different. Save and see your changes
             instantly!!!...Finally. Finally agian. Flower. Cherry
           </li>
         </ol>
