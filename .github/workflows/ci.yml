@@ -26,7 +26,8 @@ jobs:
         with:
           path: |
             .turbo
-            ${{ github.workspace }}/.next/cache
+            ${{ github.workspace }}/apps/website/.next/cache
+            ${{ github.workspace }}/apps/website/out
           key: ${{ runner.os }}-turbo-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-turbo-
