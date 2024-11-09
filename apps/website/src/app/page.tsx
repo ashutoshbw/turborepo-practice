@@ -22,7 +22,7 @@ export default function Home() {
           </li>
           <li>
             Save and see your changes instantly!!!...Finally. Finally agian.
-            Flower
+            Flower. Cherry
           </li>
         </ol>
 
