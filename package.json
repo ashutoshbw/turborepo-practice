@@ -10,9 +10,5 @@
   "devDependencies": {
     "turbo": "latest"
   },
-  "cacheDirectories": [
-    "node_modules/",
-    ".next/cache/"
-  ],
   "packageManager": "pnpm@9.12.3"
 }
