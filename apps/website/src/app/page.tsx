@@ -20,6 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
+          <li>WIFI</li>
           <li>Laptop</li>
           <li>water</li>
           <li>m wi</li>
