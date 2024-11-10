@@ -20,6 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
+          <li>Laptop</li>
           <li>water</li>
           <li>m wi</li>
           <li>A new list with more mosquito</li>
