@@ -8,6 +8,7 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "turbo": "latest"
   },
   "packageManager": "pnpm@9.12.3"
