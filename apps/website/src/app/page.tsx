@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { add } from "math";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             </code>
             .
           </li>
+          <li>{add(3, 10)}</li>
           <li>WIFI</li>
           <li>Laptop</li>
           <li>water</li>
