@@ -20,7 +20,7 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
-      math:
+      math-practice-pkg:
         specifier: workspace:*
         version: link:../../packages/math
       next:
