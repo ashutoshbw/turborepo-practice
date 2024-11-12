@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { add } from "math";
+import { add } from "math-practice-pkg";
 
 export default function Home() {
   return (
