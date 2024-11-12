@@ -1,7 +1,5 @@
 # My first Turborepo
 
-A paragraph. another
+A paragraph.
 
 Another para.
-
-WIKIF
