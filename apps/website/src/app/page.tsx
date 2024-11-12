@@ -22,17 +22,6 @@ export default function Home() {
             .
           </li>
           <li>{add(3, 10)}</li>
-          <li>WIFI</li>
-          <li>Laptop</li>
-          <li>water</li>
-          <li>m wi</li>
-          <li>A new list with more mosquito</li>
-          <li>A new list with mosquito</li>
-          <li>A new list with tea</li>
-          <li>
-            Coffee.... Start with something different. Save and see your changes
-            instantly!!!...Finally. Finally agian. Flower. Cherry
-          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
