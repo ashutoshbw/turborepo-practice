@@ -1,6 +1,6 @@
 {
   "name": "math-practice-pkg",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
