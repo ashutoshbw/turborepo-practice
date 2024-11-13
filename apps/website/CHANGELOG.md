@@ -1,5 +1,12 @@
 # doc-site
 
+## 0.1.6
+
+### Patch Changes
+
+- Updated dependencies [7500847]
+  - math-practice-pkg@0.5.0
+
 ## 0.1.5
 
 ### Patch Changes
