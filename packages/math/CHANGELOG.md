@@ -1,5 +1,11 @@
 # math-practice-pkg
 
+## 0.3.0
+
+### Minor Changes
+
+- 7cc89d3: use 10
+
 ## 0.2.0
 
 ### Minor Changes
