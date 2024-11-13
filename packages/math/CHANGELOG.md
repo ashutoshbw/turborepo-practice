@@ -1,5 +1,11 @@
 # math-practice-pkg
 
+## 0.4.0
+
+### Minor Changes
+
+- b9f586e: use 12
+
 ## 0.3.0
 
 ### Minor Changes
