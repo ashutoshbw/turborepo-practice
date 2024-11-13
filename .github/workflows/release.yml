@@ -9,7 +9,6 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
-    permissions: write-all
     timeout-minutes: 15
     runs-on: ubuntu-latest
     env:
