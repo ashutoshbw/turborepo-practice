@@ -1,5 +1,11 @@
 # math-practice-pkg
 
+## 0.5.1
+
+### Patch Changes
+
+- 42342ff: let it increment by 400
+
 ## 0.5.0
 
 ### Minor Changes
