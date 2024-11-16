@@ -21,7 +21,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Result of add: {add(3, 10)}..!!! Extra. Extra</li>
+          <li>Result of add: {add(3, 10)}..!!! Extra. Extra. Final Extra</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
