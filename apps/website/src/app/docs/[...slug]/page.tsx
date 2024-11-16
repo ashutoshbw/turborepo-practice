@@ -7,17 +7,27 @@ const sep = path.sep;
 const contentSource = `..${sep}..${sep}docs`;
 
 export async function generateStaticParams() {
-  const filenames = await readdir(path.join(process.cwd(), contentSource));
-  return filenames.map((name) => ({ slug: name.replace(".mdx", "") }));
+  const filepaths = await readdir(path.join(process.cwd(), contentSource), {
+    recursive: true,
+  });
+  return filepaths
+    .filter((filepath) => filepath.endsWith(".mdx"))
+    .map((filepath) => ({
+      slug: filepath.replace(/\.mdx$/, "").split("/"),
+    }));
 }
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string[] }>;
 }) {
   const slug = (await params).slug;
-  const filePath = path.join(process.cwd(), contentSource, slug + ".mdx");
+  const filePath = path.join(
+    process.cwd(),
+    contentSource,
+    slug.join(sep) + ".mdx"
+  );
   const file = await readFile(filePath, "utf8");
 
   const { data, content } = matter(file);
