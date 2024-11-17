@@ -25,6 +25,7 @@ export default function Home() {
           <li>another change</li>
           <li>another change</li>
           <li>another change. Will work</li>
+          <li>another change. Will work, without cache</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
