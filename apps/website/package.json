@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "math-practice-pkg": "workspace:*",
     "next": "15.0.2",
     "next-mdx-remote": "^5.0.0",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
-    "math-practice-pkg": "workspace:*",
-    "serve": "^14.2.4"
+    "rehype-pretty-code": "^0.14.0",
+    "remark-smartypants": "^3.0.2",
+    "serve": "^14.2.4",
+    "shiki": "^1.23.1"
   },
   "devDependencies": {
     "@types/node": "^20",
