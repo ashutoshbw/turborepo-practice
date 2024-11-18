@@ -22,10 +22,7 @@ export default function Home() {
             .
           </li>
           <li>Result of add: {add(3, 10)}..!!! Extra. Extra. Final Extra</li>
-          <li>another change</li>
-          <li>another change</li>
-          <li>another change. Will work</li>
-          <li>another change. Will work, without cache</li>
+          <li>simplify</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
