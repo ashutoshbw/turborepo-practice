@@ -35,7 +35,12 @@ export default async function Page({
   return (
     <article>
       <h1>{data.title} and something</h1>
-      <MDXRemote source={content} />
+      <MDXRemote
+        source={content}
+        components={{
+          h2: ({ children }) => <h2 className="bg-red-600">{children}</h2>,
+        }}
+      />
     </article>
   );
 }
